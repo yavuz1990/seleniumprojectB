@@ -10,6 +10,7 @@ public class BasicNavigations {
         //1- Set up the browser driver
         WebDriverManager.chromedriver().setup();
 
+
         //2- Create instance of the Selenium Webdriver
         // This is the line opening an empty browser
         WebDriver driver=new ChromeDriver();
